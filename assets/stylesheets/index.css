@@ -137,6 +137,7 @@ header {
   width: 100%;
   height: 30%;
   text-align: center;
+  position: relative;
 }
 
 header > * {
@@ -155,6 +156,7 @@ section {
   height: 200%;
   border: none;
   position: relative;
+  text-align: center;
 }
 
 .top-content > * {
@@ -178,12 +180,10 @@ section {
 }
 
 .ads {
+  padding-top: 2em;
   height: calc(80vh - 3px);
   width: 100%;
-}
-
-.courses {
-  width: 100%;
+  padding-left: 10%;
 }
 
 .courses > * {
@@ -193,5 +193,166 @@ section {
 }
 
 .big-course {
+  padding-top: 0.5em;
   width: calc(50% - 3px);
+  text-align: center;
+}
+
+.read-more {
+  width: 100%;
+  height: 30vh;
+  text-align: center;
+  line-height: 30vh;
+}
+
+.conference {
+  padding-top: 1em;
+  height: 130vh;
+}
+
+.person {
+  height: 50vh;
+}
+
+.persons {
+  height: 50vh;
+  width: calc(50% - 3px);
+  display: inline-block;
+}
+
+footer {
+  height: 100vh;
+}
+
+.logo {
+  height: 81px;
+  position: relative;
+  bottom: 30%;
+  left: -1%;
+}
+
+.topic-btn {
+  height: 81px;
+  position: relative;
+  bottom: 30%;
+  left: 1%;
+}
+.top-cc {
+  padding-left: 10%;
+}
+
+.tc-header {
+  height: 15%;
+  width: 50%;
+  margin-top: 30%;
+}
+
+.tc-title {
+  margin-top: 2%;
+  width: 80%;
+  height: 30%;
+}
+
+.tc-tag {
+  height: 10%;
+  width: 40%;
+  margin-top: 2%;
+}
+
+.ads-c {
+  margin-top: 20px;
+  height: 22em;
+  width: 60em;
+  display: inline-block;
+}
+
+.ads-btn {
+  height: 5em;
+  width: 20em;
+  margin-top: 1em;
+}
+
+.ads-img {
+  display: inline-block;
+  width: 15em;
+  height: 15em;
+  position: relative;
+  bottom: 9.5em;
+  left: 5em;
+}
+
+.course{
+  padding-left: 2em;
+  padding-top: 3em;
+  position: relative;
+}
+
+.course > *{
+  display: block;
+  margin-top: 1em;
+}
+
+.c1{
+  width: 5em;
+  height: 2em;
+}
+
+.c2{
+  width: 20em;
+  height: 8em;
+}
+
+.c3{
+  width: 14em;
+  height: 2em;
+}
+
+.c4{
+  width: 20em;
+  height: 18em;
+}
+
+.c-btn{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3em;
+  width: 4em;
+}
+
+.big-course > * {
+  margin: 0 auto;
+  margin-top: 0.5em;
+}
+
+.bc1{
+  width: 20em;
+  height: 20em;
+}
+
+.bc2{
+  width:23em;
+  height: 5em;
+}
+
+.bc3{
+  width: 25em;
+  height: 9em;
+}
+
+.bc4{
+  height: 3em;
+  width: 19em;
+}
+
+.bc5{
+  width: 19em;
+  height: 3em; 
+}
+
+.conference > *{
+  margin: 0 auto;
+  width: 40em;
+  height: 10em;
+  margin-top: 1em;
 }
