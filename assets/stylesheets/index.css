@@ -218,9 +218,12 @@ section {
   height: 50vh;
   width: calc(50% - 3px);
   display: inline-block;
+  padding-top: 3em;
+  padding-left: 2em;
 }
 
 footer {
+  padding-top: 3em;
   height: 100vh;
 }
 
@@ -281,38 +284,38 @@ footer {
   left: 5em;
 }
 
-.course{
+.course {
   padding-left: 2em;
   padding-top: 3em;
   position: relative;
 }
 
-.course > *{
+.course > * {
   display: block;
   margin-top: 1em;
 }
 
-.c1{
+.c1 {
   width: 5em;
   height: 2em;
 }
 
-.c2{
+.c2 {
   width: 20em;
   height: 8em;
 }
 
-.c3{
+.c3 {
   width: 14em;
   height: 2em;
 }
 
-.c4{
+.c4 {
   width: 20em;
   height: 18em;
 }
 
-.c-btn{
+.c-btn {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -325,34 +328,169 @@ footer {
   margin-top: 0.5em;
 }
 
-.bc1{
+.bc1 {
   width: 20em;
   height: 20em;
 }
 
-.bc2{
-  width:23em;
+.bc2 {
+  width: 23em;
   height: 5em;
 }
 
-.bc3{
+.bc3 {
   width: 25em;
   height: 9em;
 }
 
-.bc4{
+.bc4 {
   height: 3em;
   width: 19em;
 }
 
-.bc5{
+.bc5 {
   width: 19em;
-  height: 3em; 
+  height: 3em;
 }
 
-.conference > *{
+.conference > * {
   margin: 0 auto;
   width: 40em;
   height: 10em;
   margin-top: 1em;
+}
+
+.person {
+  padding-left: 5em;
+  padding-top: 4em;
+}
+.person > * {
+  display: inline-block;
+}
+.pic {
+  width: 13em;
+  height: 13em;
+  transform: rotate(-10deg);
+}
+
+.intro {
+  margin-left: 4em;
+  width: 50em;
+  height: 13em;
+  padding-left: 1em;
+  padding-top: 1em;
+}
+
+.intro > * {
+  display: block;
+}
+.title {
+  width: 15em;
+  height: 2em;
+}
+
+.detail {
+  margin-top: 0.5em;
+  width: 45em;
+  height: 8em;
+}
+
+.s-pic {
+  width: 5em;
+  height: 5em;
+  display: inline-block;
+  vertical-align: top;
+  transform: rotate(-10deg);
+}
+
+.s-intro {
+  display: inline-block;
+  width: 35em;
+  height: 17em;
+  margin-left: 2em;
+}
+.d-person {
+  padding-top: 0.5em;
+  position: relative;
+}
+
+.d-person > * {
+  display: block;
+  margin-top: 1em;
+}
+.d-warn {
+  width: 5em;
+  height: 1.5em;
+}
+
+.d-title {
+  width: 20em;
+  height: 5em;
+}
+
+.d-detail {
+  height: 9em;
+  width: 45em;
+}
+
+.d-btn {
+  height: 2em;
+  width: 10em;
+}
+
+.d-img {
+  width: 13em;
+  height: 18em;
+  position: absolute;
+  transform: rotate(-15deg);
+  right: 5em;
+  top: -5em;
+}
+
+.cc {
+  padding-top: 1em;
+}
+.cc > * {
+  margin: 0 auto;
+}
+.c-title {
+  width: 20em;
+  height: 5em;
+}
+
+.c-list {
+  margin-top: 1.5em;
+  height: 35em;
+  width: 18em;
+}
+
+.conference > * {
+  width: 30em;
+  height: 6em;
+  margin: 0 auto;
+  margin-top: 0.5em;
+}
+
+.con-img {
+  outline: none;
+  border: 3px solid black;
+  border-radius: 100%;
+  height: 30em;
+}
+
+footer > * {
+  height: 1.5em;
+  width: 30em;
+  margin: 0 auto;
+  margin-top: 1em;
+}
+
+.ccc-list{
+  height: 25em;
+  width: 80em;
+}
+
+.company{
+  width: 20em;
+  height: 8em;
 }
