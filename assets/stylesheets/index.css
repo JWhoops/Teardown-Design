@@ -124,7 +124,8 @@ table {
 }
 
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 :root {
@@ -400,7 +401,9 @@ footer {
 .pic {
   width: 13em;
   height: 13em;
-  transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
   background-color: var(--grey1);
 }
 
@@ -433,7 +436,9 @@ footer {
   height: 5em;
   display: inline-block;
   vertical-align: top;
-  transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
   background-color: var(--grey1);
 }
 
@@ -482,7 +487,9 @@ footer {
   width: 13em;
   height: 18em;
   position: absolute;
-  transform: rotate(-15deg);
+  -webkit-transform: rotate(-15deg);
+      -ms-transform: rotate(-15deg);
+          transform: rotate(-15deg);
   right: 5em;
   top: -5em;
 }
